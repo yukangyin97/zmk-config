@@ -73,8 +73,8 @@
                         display-name = "Left Symbol";
                         bindings = <
    &kp TILDE &kp LT   &kp GT    &kp QMARK &none       &none &none &none &none &none
-   &kp EXCL  &kp PLUS &kp MINUS &kp EQL   &kp crrt    &none &none &none &none &none
-   &kp PRCNT &kp STAR &kp SLASH &kp GRAV  &kp under   &none &none &none &none &none
+   &kp EXCL  &kp PLUS &kp MINUS &kp EQUAL &kp CARET   &none &none &none &none &none
+   &kp PRCNT &kp STAR &kp SLASH &kp GRAVE &kp UNDER   &none &none &none &none &none
                       &none     &none     &none       &none &none &none
                         >;
                 };
