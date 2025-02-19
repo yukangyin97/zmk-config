@@ -14,7 +14,9 @@
 #define NAV_LAYER     3
 #define NUM_PAD_LAYER 4
 
-&lt { tapping-term-ms = <200>; };
+&lt {
+        tapping-term-ms = <200>;
+};
 
 / {
         chosen {
