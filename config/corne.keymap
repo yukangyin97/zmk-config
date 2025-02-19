@@ -89,7 +89,7 @@
                         bindings = <
    &none &none &none &none &none   &kp AMPS &kp SQT   &kp LBKT &kp RBKT &kp AT
    &none &none &none &none &none   &kp DLLR &kp COLON &kp LBRC &kp RBRC &kp HASH
-   &none &none &none &none &none   &kp PIPE &kp DQT   &kp LPRN &kp RPRN &kp BSLH
+   &none &none &none &none &none   &kp PIPE &kp DQT   &kp LPAR &kp RPAR &kp BSLH
                &none &none &none   &none    &none     &none
                         >;
                 };
