@@ -66,15 +66,16 @@
  
                 left_symbol_layer {
 // -----------------------------------------------------------------------------------------
-// |     |  ~  |  <  |  >  |  ?  |     |   |     |     |     |     |     |     |
-// |     |  !  |  +  |  -  |  =  |  ^  |   |     |     |     |     |     |     |
-// |     |  %  |  *  |  /  |  `  |  _  |   |     |     |     |     |     |     |
-//                   |     |     |     |   |     |     |     |
+// |  ~  |  <  |  >  |  ?  |     |   |     |     |     |     |     |
+// |  !  |  +  |  -  |  =  |  ^  |   |     |     |     |     |     |
+// |  %  |  *  |  /  |  `  |  _  |   |     |     |     |     |     |
+//             |     |     |     |   |     |     |     |
+                        display-name = "Left Symbol";
                         bindings = <
-&none     &none &none &none &none &none   &none &none    &kp UP   &none     &none     &none
-&none     &none &none &none &none &none   &none &kp LEFT &kp DOWN &kp RIGHT &none     &none
-&none     &none &none &none &none &none   &none &none    &none    &none     &none     &none
-                        &none &none &none   &none &none    &none
+   &kp TILDE &kp LT   &kp GT    &kp QMARK &none       &none &none &none &none &none
+   &kp EXCL  &kp PLUS &kp MINUS &kp EQL   &kp crrt    &none &none &none &none &none
+   &kp PRCNT &kp STAR &kp SLASH &kp GRAV  &kp under   &none &none &none &none &none
+                      &none     &none     &none       &none &none &none
                         >;
                 };
 
