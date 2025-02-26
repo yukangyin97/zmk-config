@@ -18,6 +18,20 @@
         tapping-term-ms = <200>;
 };
 
+// Combos configured ini your `.keymap` file
+// but are separate from the `keymap` node found here
+// since they are processed before the normal keymap
+/ {
+        combos {
+                compatible = "zmk,combos";
+                combo_esc {
+                        timeout-ms = <50>;
+                        key-positions = <16 17>;
+                        bindings = <&kp ESC>;
+                };
+        };
+};
+
 / {
         chosen {
                 // zmk,physical-layout = &foostan_corne_5col_layout;
