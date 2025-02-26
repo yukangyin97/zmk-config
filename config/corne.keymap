@@ -61,13 +61,13 @@
  
                 left_symbol_layer {
 // -----------------------------------------------------------------------------------------
-// |  ~  |  <  |  >  |  @  |  &  |   |     |     |     |     |     |
+// |  `  |  <  |  >  |  @  |  &  |   |     |     |     |     |     |
 // |  !  |  +  |  -  |  =  |  |  |   |     |     |     |     |     |
 // |  #  |  *  |  /  |  ?  |  %  |   |     |     |     |     |     |
 //             |     |     |     |   |     |     |     |
                         display-name = "Left Symbol";
                         bindings = <
-   &kp TILDE &kp LT      &kp GT       &kp AT       &kp AMPS    &none &none &none &none &none
+   &kp GRAV  &kp LT      &kp GT       &kp AT       &kp AMPS    &none &none &none &none &none
    &kp EXCL  &kp KP_PLUS &kp KP_MINUS &kp KP_EQUAL &kp PIPE    &none &none &none &none &none
    &kp HASH  &kp STAR    &kp KP_SLASH &kp QMARK    &kp PRCNT   &none &none &none &none &none
                          &none        &none        &none       &none &none &none
@@ -82,10 +82,10 @@
 //             |     |     |     |   |     |     |     |
                         display-name = "Right Symbol";
                         bindings = <
-   &none &none &none &none &none   &kp AMPS &kp SQT   &kp LBKT &kp RBKT &kp AT
-   &none &none &none &none &none   &kp DLLR &kp COLON &kp LBRC &kp RBRC &kp HASH
-   &none &none &none &none &none   &kp PIPE &kp DQT   &kp LPAR &kp RPAR &kp BSLH
-               &none &none &none   &none    &none     &none
+   &none &none &none &none &none   &kp CARET &kp LBRC &kp RBRC &kp DLLR  &kp TILDE
+   &none &none &none &none &none   &kp UNDER &kp LPAR &kp RPAR &kp COLON &kp SQT
+   &none &none &none &none &none   &kp DQT   &kp SEMI &kp LBKT &kp RBKT  &kp BSLH
+               &none &none &none   &none     &none    &none
                         >;
                 };
 
