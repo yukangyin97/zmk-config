@@ -77,15 +77,15 @@
                 right_symbol_layer {
 // -----------------------------------------------------------------------------------------
 // |     |     |     |     |     |   |  ^  |  {  |  }  |  $  |  ~  |
-// |     |     |     |     |     |   |  _  |  (  |  )  |  :  |  '  |
+// | ALT | GUI |ctrl |SHIFT|     |   |  _  |  (  |  )  |  :  |  '  |
 // |     |     |     |     |     |   |  "  |  ;  |  [  |  ]  |  \  |
 //             |     |     |     |   |     |     |     |
                         display-name = "Right Symbol";
                         bindings = <
-   &none &none &none &none &none   &kp CARET &kp LBRC &kp RBRC &kp DLLR  &kp TILDE
-   &none &none &none &none &none   &kp UNDER &kp LPAR &kp RPAR &kp COLON &kp SQT
-   &none &none &none &none &none   &kp DQT   &kp SEMI &kp LBKT &kp RBKT  &kp BSLH
-               &none &none &none   &none     &none    &none
+   &none    &none    &none     &none     &none   &kp CARET &kp LBRC &kp RBRC &kp DLLR  &kp TILDE
+   &kp LALT &kp LGUI &kp LCTRL &kp LSHFT &none   &kp UNDER &kp LPAR &kp RPAR &kp COLON &kp SQT
+   &none    &none    &none     &none     &none   &kp DQT   &kp SEMI &kp LBKT &kp RBKT  &kp BSLH
+                     &none     &none     &none   &none     &none    &none
                         >;
                 };
 
