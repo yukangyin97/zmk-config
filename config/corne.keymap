@@ -18,6 +18,27 @@
         tapping-term-ms = <200>;
 };
 
+/ {
+        behaviors {
+                hm: homerow_mods {
+                        compatible = "zmk,behavior-hold-tap";
+                        #binding-cells = <2>;
+                        tapping-term-ms = <150>;
+                        quick-tap-ms = <0>;
+                        flavor = "tap-preferred";
+                        bindings = <&kp>, <&kp>;
+                };
+                bhm: balanced_homerow_mods {
+                        compatible = "zmk,behavior-hold-tap";
+                        #binding-cells = <2>;
+                        tapping-term-ms = <200>;    // <---[[moderate duration]]
+                        quick-tap-ms = <0>;
+                        flavor = "balanced";
+                        bindings = <&kp>, <&kp>;
+                };
+        };
+};
+
 // Combos configured ini your `.keymap` file
 // but are separate from the `keymap` node found here
 // since they are processed before the normal keymap
@@ -41,25 +62,6 @@
         chosen {
                 // zmk,physical-layout = &foostan_corne_5col_layout;
                 zmk,matrix-transform = &five_column_transform;
-        };
-
-        behaviors {
-                hm: homerow_mods {
-                        compatible = "zmk,behavior-hold-tap";
-                        #binding-cells = <2>;
-                        tapping-term-ms = <150>;
-                        quick-tap-ms = <0>;
-                        flavor = "tap-preferred";
-                        bindings = <&kp>, <&kp>;
-                };
-                bhm: balanced_homerow_mods {
-                        compatible = "zmk,behavior-hold-tap";
-                        #binding-cells = <2>;
-                        tapping-term-ms = <200>;    // <---[[moderate duration]]
-                        quick-tap-ms = <0>;
-                        flavor = "balanced";
-                        bindings = <&kp>, <&kp>;
-                };
         };
 
         keymap {
