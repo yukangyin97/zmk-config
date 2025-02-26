@@ -49,13 +49,13 @@
 // |  Q  |  W  |  F  |  P  |  B  |   |  J  |  L  |  U  |  Y  |  ;  |
 // |  A  |  R  |  S  |  T  |  G  |   |  M  |  N  |  E  |  I  |  O  |
 // |  Z  |  X  |  C  |  D  |  V  |   |  K  |  H  |  ,  |  .  |  /  |
-//             | ESC | TAB |SPACE|   |ENTER| BSPC| DEL |
+//             | ESC |SPACE| TAB |   |ENTER| BSPC| DEL |
                         display-name = "Default";
                         bindings = <
    &kp Q       &kp W       &kp F        &kp P         &kp B   &kp J &kp L         &kp U        &kp Y       &kp SEMI
    &bhm LALT A &bhm LGUI R &bhm LCTRL S &bhm LSHIFT T &kp G   &kp M &bhm RSHIFT N &bhm RCTRL E &bhm RGUI I &bhm RALT O
    &kp Z       &kp X       &kp C        &kp D         &kp V   &kp K &kp H         &kp KP_COMMA &kp KP_DOT  &kp SLASH
-                              &kp ESC &lt 4 TAB &lt 2 SPACE   &lt 1 RETURN        &lt 3 BSPC   &kp DEL
+                           &kp ESC    &lt 4 SPACE &lt 2 TAB   &lt 1 RETURN        &lt 3 BSPC   &kp DEL
                         >;
                 };
  
