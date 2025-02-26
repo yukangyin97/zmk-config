@@ -10,6 +10,7 @@
 
 #define AS(keycode) &as LS(keycode) keycode  // autoshift macro
 
+// Update/override configured properties for pre-defined ZMK behaviors
 &lt {
         tapping-term-ms = <200>;
 };
@@ -64,6 +65,11 @@
                         timeout-ms = <50>;
                         key-positions = <12 13>;
                         bindings = <&kp TAB>;
+                };
+                combo_caps {
+                        timeout-ms = <50>;
+                        key-positions = <14 15>;
+                        bindings = <&kp CAPS>;
                 };
         };
 };
