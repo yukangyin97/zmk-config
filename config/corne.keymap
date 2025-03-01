@@ -84,15 +84,15 @@
 
                 default_layer {
 // -----------------------------------------------------------------------------------------
-// |  Q  |  W  |  F  |  P  |  B  |   |  J  |  L  |  U  |  Y  |  ;  |
-// |  A  |  R  |  S  |  T  |  G  |   |  M  |  N  |  E  |  I  |  O  |
-// |  Z  |  X  |  C  |  D  |  V  |   |  K  |  H  |  ,  |  .  |  /  |
+// |  Q  |  W  |  F  |  P  |  G  |   |  J  |  L  |  U  |  Y  |  ;  |
+// |  A  |  R  |  S  |  T  |  D  |   |  H  |  N  |  E  |  I  |  O  |
+// |  Z  |  X  |  C  |  V  |  B  |   |  K  |  M  |  ,  |  .  |  /  |
 //             | ESC |SPACE| TAB |   |ENTER| BSPC| DEL |
                         display-name = "Default";
                         bindings = <
-   &kp Q       &kp W       &kp F        &kp P         &kp B   &kp J &kp L         &kp U        &kp Y       &kp SEMI
-   &bhm LALT A &bhm LGUI R &bhm LCTRL S &bhm LSHIFT T &kp G   &kp M &bhm RSHIFT N &bhm RCTRL E &bhm RGUI I &bhm RALT O
-   &kp Z       &kp X       &kp C        &kp D         &kp V   &kp K &kp H         &kp KP_COMMA &kp KP_DOT  &kp SLASH
+   &kp Q       &kp W       &kp F        &kp P         &kp G   &kp J &kp L         &kp U        &kp Y       &kp SEMI
+   &bhm LALT A &bhm LGUI R &bhm LCTRL S &bhm LSHIFT T &kp D   &kp H &bhm RSHIFT N &bhm RCTRL E &bhm RGUI I &bhm RALT O
+   &kp Z       &kp X       &kp C        &kp V         &kp B   &kp K &kp M         &kp KP_COMMA &kp KP_DOT  &kp SLASH
                            &kp ESC    &lt 2 SPACE &lt 4 TAB   &lt 3 RETURN        &lt 1 BSPC   &kp DEL
                         >;
                 };
